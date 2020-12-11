@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class dont : MonoBehaviour
 {
-
     private static dont playerInstance;
 
     void Awake()

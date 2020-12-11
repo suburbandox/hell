@@ -35,9 +35,9 @@ public class ai : MonoBehaviour
             StopCoroutine("wat");
             transform.position = Vector2.MoveTowards(transform.position, p.position, charge_speed * Time.deltaTime);
         }
-        if (true)
+        if (Vector2.Distance(transform.position,p.position) < 8)
         {
-
+            attack = true;
         }
     }
     
