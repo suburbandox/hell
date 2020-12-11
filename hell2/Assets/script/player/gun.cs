@@ -8,7 +8,7 @@ public class gun : MonoBehaviour
     public float starttimebtwshot;
     public GameObject projetile;
     public Transform shotpoint;
-    public float timebtwshot;
+    float timebtwshot;
 
     void Update()
     {
