@@ -292,13 +292,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5448319773249131864}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97f3a62e9ab2fb74b96b5124438098e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sp: 5
-  rb: {fileID: 5448319773249131871}
+  ana: {fileID: 0}
+  v: 0
 --- !u!114 &5448319773249131874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,3 +314,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mousepos: {x: 0, y: 0}
   sp: 5
+  offset: 90

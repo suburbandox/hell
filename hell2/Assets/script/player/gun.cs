@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class gun : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class gun : MonoBehaviour
     public GameObject projetile;
     public Transform shotpoint;
     public Transform p;
+    public AudioSource sound;
     float timebtwshot;
     Vector2 mousepos2;
 
@@ -39,6 +41,7 @@ public class gun : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Instantiate(projetile, shotpoint.position, shotpoint.rotation);
+                sound.Play();
                 timebtwshot = starttimebtwshot;
             }
         }
