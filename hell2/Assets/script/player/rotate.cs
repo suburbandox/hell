@@ -9,6 +9,12 @@ public class rotate : MonoBehaviour
     public float sp = 5;
     public int offset = 90;
 
+
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;

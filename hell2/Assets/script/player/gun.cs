@@ -8,15 +8,18 @@ public class gun : MonoBehaviour
     public float starttimebtwshot;
     public GameObject projetile;
     public Transform shotpoint;
+    public Transform p;
     float timebtwshot;
+    Vector2 mousepos2;
 
     void Start()
     {
-        Transform p = GameObject.FindGameObjectWithTag("Player").transform; 
+         p = GameObject.FindGameObjectWithTag("Player").transform; 
     }
 
     void Update()
     {
+        
         Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         Vector3 dif = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float z = Mathf.Atan2(dif.y, dif.x) * Mathf.Rad2Deg;

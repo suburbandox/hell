@@ -1404,6 +1404,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 1880215394}
+  p: {fileID: 0}
 --- !u!1 &1350604928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1455,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 568332622}
+  p: {fileID: 0}
 --- !u!212 &1350604931
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1606,6 +1608,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 676712381}
+  p: {fileID: 0}
 --- !u!1 &1543140788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,6 +1948,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 2066624493}
+  p: {fileID: 0}
 --- !u!1 &2028386230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,6 +2050,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 490630984}
+  p: {fileID: 0}
 --- !u!1 &2066624492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2225,7 @@ MonoBehaviour:
   projetile: {fileID: 3828174833406975039, guid: 84a56e19fe46e2044a347f165713b64c,
     type: 3}
   shotpoint: {fileID: 4634596287540115364}
+  p: {fileID: 0}
 --- !u!212 &4634596288236827900
 SpriteRenderer:
   m_ObjectHideFlags: 0
