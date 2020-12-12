@@ -10,6 +10,11 @@ public class gun : MonoBehaviour
     public Transform shotpoint;
     float timebtwshot;
 
+    void Start()
+    {
+        Transform p = GameObject.FindGameObjectWithTag("Player").transform; 
+    }
+
     void Update()
     {
         Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
