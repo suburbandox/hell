@@ -6,6 +6,8 @@ public class pause : MonoBehaviour
 {
 
     public bool sw;
+    public GameObject pas;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +23,13 @@ public class pause : MonoBehaviour
         }
         if (sw)
         {
+            pas.SetActive(true);
             Time.timeScale = 0;
         }
         else
         {
+            pas.SetActive(false);
+
             Time.timeScale = 1;
         }
     }
