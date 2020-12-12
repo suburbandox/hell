@@ -10,13 +10,15 @@ public class gun : MonoBehaviour
     public GameObject projetile;
     public Transform shotpoint;
     public Transform p;
+    public float kick;
+
     public AudioSource sound;
     float timebtwshot;
     Vector2 mousepos2;
 
     void Start()
     {
-         p = GameObject.FindGameObjectWithTag("Player").transform; 
+        p = GameObject.FindGameObjectWithTag("Player").transform; 
     }
 
     void Update()
@@ -41,6 +43,8 @@ public class gun : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Instantiate(projetile, shotpoint.position, shotpoint.rotation);
+                //p.Translate(Vector2.up * -kick * Time.deltaTime);
+                p.position += Vector3.forward * kick;
                 sound.Play();
                 timebtwshot = starttimebtwshot;
             }
