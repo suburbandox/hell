@@ -9,7 +9,8 @@ public class gun : MonoBehaviour
     public float starttimebtwshot;
     public GameObject projetile;
     public Transform shotpoint;
-    public Transform p;
+    public Rigidbody2D p;
+    
     public float kick;
 
     public AudioSource sound;
@@ -18,7 +19,7 @@ public class gun : MonoBehaviour
 
     void Start()
     {
-        p = GameObject.FindGameObjectWithTag("Player").transform; 
+        p = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -44,7 +45,8 @@ public class gun : MonoBehaviour
             {
                 Instantiate(projetile, shotpoint.position, shotpoint.rotation);
                 //p.Translate(Vector2.up * -kick * Time.deltaTime);
-                p.position += Vector3.forward * kick;
+                //p.position += Vector3.forward * kick;
+                //p.AddRelativeForce(kick);
                 sound.Play();
                 timebtwshot = starttimebtwshot;
             }
