@@ -149,6 +149,7 @@ MonoBehaviour:
     type: 3}
   shotpoint: {fileID: 3706996873751046899}
   p: {fileID: 0}
+  kick: 0
   sound: {fileID: 3706996873725061188}
 --- !u!82 &3706996873725061188
 AudioSource:
@@ -409,6 +410,7 @@ MonoBehaviour:
     type: 3}
   shotpoint: {fileID: 3706996873908569577}
   p: {fileID: 0}
+  kick: 0
   sound: {fileID: 3706996874967310037}
 --- !u!82 &3706996874967310037
 AudioSource:
@@ -609,6 +611,7 @@ MonoBehaviour:
     type: 3}
   shotpoint: {fileID: 4051398233104066501}
   p: {fileID: 0}
+  kick: 0
   sound: {fileID: 7455450635210032790}
 --- !u!82 &7455450635210032790
 AudioSource:
@@ -805,7 +808,7 @@ GameObject:
   - component: {fileID: 4497653090397368879}
   m_Layer: 0
   m_Name: Player 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

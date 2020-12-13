@@ -44,9 +44,7 @@ public class gun : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Instantiate(projetile, shotpoint.position, shotpoint.rotation);
-                //p.Translate(Vector2.up * -kick * Time.deltaTime);
-                //p.position += Vector3.forward * kick;
-                //p.AddRelativeForce(kick);
+                p.AddRelativeForce(transform.up * -kick);
                 sound.Play();
                 timebtwshot = starttimebtwshot;
             }
@@ -55,6 +53,5 @@ public class gun : MonoBehaviour
         {
             timebtwshot -= Time.deltaTime;
         }
-
     }
 }
