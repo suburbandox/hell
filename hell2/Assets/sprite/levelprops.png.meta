@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: f49fa8ee31191ee48a9455df9c41f93f
+guid: fcda6a342dffb6249b70862d31c305ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3028468922749725921
-    second: healthUIsprites_0
+      213: -7582562657091292454
+    second: levelprops_0
   - first:
-      213: -3623693437571207336
-    second: healthUIsprites_1
+      213: -8981414562767275137
+    second: levelprops_1
+  - first:
+      213: 1013493709354628156
+    second: levelprops_2
+  - first:
+      213: 3666970947017661402
+    second: levelprops_3
+  - first:
+      213: -6417701931872430876
+    second: levelprops_4
+  - first:
+      213: 5486118139586152795
+    second: levelprops_5
+  - first:
+      213: -2506217768588189360
+    second: levelprops_6
+  - first:
+      213: -5599504920473624175
+    second: levelprops_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,43 +122,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: healthUIsprites_0
+      name: levelprops_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 292
-        width: 156
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 24
+        width: 275
+        height: 481
+      alignment: 9
+      pivot: {x: 0.32084778, y: 0.06639697}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ecaec19078470a20800000000000000
-      internalID: 3028468922749725921
+      spriteID: ad27ee0007355c690800000000000000
+      internalID: -7582562657091292454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healthUIsprites_1
+      name: levelprops_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 16
-        width: 156
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 13
+        width: 312
+        height: 533
+      alignment: 9
+      pivot: {x: 0.5421084, y: 0.07634815}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85f67a6840e06bdc0800000000000000
-      internalID: -3623693437571207336
+      spriteID: f7b7cbd6a0b9b5380800000000000000
+      internalID: -8981414562767275137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelprops_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 17
+        width: 302
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5190325, y: 0.26602665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34fc20b827a01e00800000000000000
+      internalID: 1013493709354628156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelprops_3
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 231
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb5aaad5a2b3e230800000000000000
+      internalID: 3666970947017661402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelprops_4
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 214
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4d76c681ebfe6a0800000000000000
+      internalID: -6417701931872430876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelprops_7
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 68
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1912e1931ff8a42b0800000000000000
+      internalID: -5599504920473624175
       vertices: []
       indices: 
       edges: []
