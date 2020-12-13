@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class melee : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class melee : MonoBehaviour
     public float attackrange;
     public LayerMask enemylayer;
     public int damage = 20;
+    public AudioSource a;
 
 
 
@@ -24,7 +26,8 @@ public class melee : MonoBehaviour
     void attack()
     {
         Collider2D[] hit = Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayer);
-        ana.SetTrigger("swipe");
+        ana.SetTrigger("stab");
+        a.Play();
         foreach (Collider2D item in hit)
         {
             //Debug.Log("we hit " + item.name);

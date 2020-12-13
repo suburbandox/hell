@@ -6,10 +6,8 @@ public class move : MonoBehaviour
 {
     public float sp = 5;
     public Animator ana;
-    public float v;
 
     Rigidbody2D rb;
-
     Vector2 movement;
 
     void Start()
