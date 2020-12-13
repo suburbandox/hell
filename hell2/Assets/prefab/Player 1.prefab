@@ -151,6 +151,7 @@ MonoBehaviour:
   p: {fileID: 0}
   kick: 0
   sound: {fileID: 3706996873725061188}
+  mousepos: {x: 0, y: 0}
 --- !u!82 &3706996873725061188
 AudioSource:
   m_ObjectHideFlags: 0
@@ -412,6 +413,7 @@ MonoBehaviour:
   p: {fileID: 0}
   kick: 0
   sound: {fileID: 3706996874967310037}
+  mousepos: {x: 0, y: 0}
 --- !u!82 &3706996874967310037
 AudioSource:
   m_ObjectHideFlags: 0
@@ -613,6 +615,7 @@ MonoBehaviour:
   p: {fileID: 0}
   kick: 0
   sound: {fileID: 7455450635210032790}
+  mousepos: {x: 0, y: 0}
 --- !u!82 &7455450635210032790
 AudioSource:
   m_ObjectHideFlags: 0
@@ -870,7 +873,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &3706996875110113174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -885,7 +888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sp: 5
   ana: {fileID: 7979521378792168761}
-  v: 0
 --- !u!70 &4332183369301505212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
