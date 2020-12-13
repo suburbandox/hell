@@ -40,7 +40,7 @@ public class swich : MonoBehaviour
             if (i == pick)
             {
                 weapon.gameObject.SetActive(true);
-                Debug.Log(weapon);
+                //Debug.Log(weapon);
             }
             else
                 weapon.gameObject.SetActive(false);

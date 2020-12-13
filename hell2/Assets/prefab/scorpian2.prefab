@@ -927,6 +927,7 @@ GameObject:
   - component: {fileID: 8803004911220032761}
   - component: {fileID: 48328543256701430}
   - component: {fileID: 3050932015967874584}
+  - component: {fileID: 539703015}
   m_Layer: 8
   m_Name: scorpian2
   m_TagString: enemy
@@ -992,7 +993,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3640340275411188224}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9f9abd2adbba1c4eb0f3d4cefd8bcb5, type: 3}
   m_Name: 
@@ -1148,6 +1149,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &539703015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640340275411188224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e06244a9a86614daa7f158199a28d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp: 4
+  stop: 25
+  retreat: 10
+  time: 0
+  time_between_shots: 3
+  bul: {fileID: 4921409372495835736, guid: 064d3ac67a3ce9649b16670fb638ac47, type: 3}
+  p: {fileID: 0}
 --- !u!1 &3640340275608020252
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class projectlie : MonoBehaviour
+public class pi : MonoBehaviour
 {
 
     public float sp;
