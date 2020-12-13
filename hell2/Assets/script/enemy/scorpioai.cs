@@ -20,6 +20,7 @@ public class scorpioai : MonoBehaviour
     void Start()
     {
         //p = GameObject.FindGameObjectWithTag("Player").transform;
+        ani = gameObject.GetComponent<Animator>();
         StartCoroutine(wat());
 
     }

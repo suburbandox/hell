@@ -12,7 +12,7 @@ public class ai : MonoBehaviour
     public bool attack;
 
 
-    Transform p;
+    //Transform p;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class ai : MonoBehaviour
         {
             move = false;
             StopCoroutine("wat");
-            transform.position = Vector2.MoveTowards(transform.position, p.position, charge_speed * Time.deltaTime);
+            //transform.position = Vector2.MoveTowards(transform.position, p.position, charge_speed * Time.deltaTime);
         }
         /*
         if (Vector2.Distance(transform.position,p.position) < 8)

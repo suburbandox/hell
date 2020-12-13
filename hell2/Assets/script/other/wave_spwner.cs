@@ -65,7 +65,7 @@ public class wave_spwner : MonoBehaviour
             enemy randomenamy = currentwave.enemies[Random.Range(0, currentwave.enemies.Length)];
             Transform randomspot = spawnpoints[Random.Range(0, spawnpoints.Length)];
             Instantiate(randomenamy, randomspot.position, randomspot.rotation);
-            Debug.Log(randomspot.rotation);
+            //Debug.Log(randomspot.rotation);
 
             if (i == currentwave.count -1)
             {

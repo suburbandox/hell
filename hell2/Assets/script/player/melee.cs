@@ -12,14 +12,25 @@ public class melee : MonoBehaviour
     public int damage = 20;
     public AudioSource a;
 
+    public float starttimebtwattack;
+    float timebtwatattack;
+
 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (timebtwatattack <= 0)
         {
-            attack();
+            if (Input.GetMouseButtonDown(0))
+            {
+                attack();
+                timebtwatattack = starttimebtwattack;
+            }     
+        }
+        else
+        {
+            timebtwatattack -= Time.deltaTime;
         }
     }
 
