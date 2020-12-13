@@ -174,9 +174,10 @@ GameObject:
   m_Component:
   - component: {fileID: 865352223921757128}
   - component: {fileID: 865352223921757129}
+  - component: {fileID: 1753220572219329013}
   m_Layer: 0
   m_Name: Warpig
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,6 +218,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1753220572219329013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865352223921757131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781c4b39814e6c74780c86de9f2476bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 5307892221508531568, guid: 7ac46fae7d566334daf687b42932536e, type: 3}
+  maxhealth: 100
 --- !u!1 &865352224797973810
 GameObject:
   m_ObjectHideFlags: 0

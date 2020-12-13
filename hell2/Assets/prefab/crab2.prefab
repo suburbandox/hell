@@ -421,9 +421,10 @@ GameObject:
   - component: {fileID: 2037785939374304145}
   - component: {fileID: 1146583476808835390}
   - component: {fileID: 8877387527674936879}
+  - component: {fileID: 1980577860946999744}
   m_Layer: 0
   m_Name: crab2
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -485,3 +486,17 @@ MonoBehaviour:
   attack: 0
   ani: {fileID: 1146583476808835390}
   r: 0
+--- !u!114 &1980577860946999744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877387527674936878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781c4b39814e6c74780c86de9f2476bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 5307892221508531568, guid: 7ac46fae7d566334daf687b42932536e, type: 3}
+  maxhealth: 100
