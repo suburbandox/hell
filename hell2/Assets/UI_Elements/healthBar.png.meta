@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 2361a2a300bd3b648ab506c3b6b843ff
+guid: 91def2022cf5f1a47bf35d5e57cafa82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -66015588858616896
-    second: yourePurgedUI_0
+      213: -1264772288087964892
+    second: healthBar_0
   - first:
-      213: -5608152161967935081
-    second: yourePurgedUI_1
+      213: -1246487339369159825
+    second: healthBar_1
   - first:
-      213: -1812425146230317049
-    second: yourePurgedUI_2
+      213: 7376670112705440963
+    second: healthBar_0
+  - first:
+      213: -6921042569962666756
+    second: healthBar_1
+  - first:
+      213: -6581021228822345160
+    second: healthBar_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yourePurgedUI_0
+      name: healthBar_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 207
-        width: 1920
-        height: 1085
+        x: 9
+        y: 112
+        width: 479
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c3a174fb27751ff0800000000000000
-      internalID: -66015588858616896
+      spriteID: 3cc6c0d52623f5660800000000000000
+      internalID: 7376670112705440963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yourePurgedUI_1
+      name: healthBar_1
       rect:
         serializedVersion: 2
-        x: 630
-        y: 78
-        width: 211
-        height: 92
+        x: 26
+        y: 67
+        width: 445
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791ff8b6257db22b0800000000000000
-      internalID: -5608152161967935081
+      spriteID: cf4c40ea37483ff90800000000000000
+      internalID: -6921042569962666756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yourePurgedUI_2
+      name: healthBar_2
       rect:
         serializedVersion: 2
-        x: 38
-        y: 38
-        width: 529
-        height: 140
+        x: 26
+        y: 17
+        width: 445
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 700e4f0aee8f8d6e0800000000000000
-      internalID: -1812425146230317049
+      spriteID: 83a4db46f048ba4a0800000000000000
+      internalID: -6581021228822345160
       vertices: []
       indices: 
       edges: []
