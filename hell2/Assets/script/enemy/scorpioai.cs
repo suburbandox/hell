@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ai : MonoBehaviour
+public class scorpioai : MonoBehaviour
 {
 
     public int dir;
@@ -10,9 +10,11 @@ public class ai : MonoBehaviour
     public float charge_speed;
     public bool move = true;
     public bool attack;
+    public Animator ani;
+    public int r;
 
 
-    Transform p;
+    ///Transform p;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,7 @@ public class ai : MonoBehaviour
         {
             transform.position += transform.right * wander_speed * Time.deltaTime;
         }
+        /*
         if (attack)
         {
             move = false;
@@ -45,13 +48,28 @@ public class ai : MonoBehaviour
     
     IEnumerator wat()
     {
+        ani.SetBool("still", false);
         move = true;
-        yield return new WaitForSeconds(7);
-       
+        yield return new WaitForSeconds(4);
+        ani.SetBool("still", true);
         move = false;
-        yield return new WaitForSeconds(7);
-        dir = Random.Range(0, 360);
-        transform.rotation = Quaternion.Euler(0, 0, dir);
+        yield return new WaitForSeconds(2);
+        dir = Random.Range(-15, 16);
+        flip();
+        //transform.rotation = Quaternion.Euler(0, 0, dir);
         StartCoroutine(wat());
     }
+    void flip()
+    {
+        r = Random.Range(0, 2);
+        if (r == 0)
+        {
+            transform.rotation = Quaternion.Euler(0, 180, dir);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(0, 0, dir);
+        }
+    }
+
 }

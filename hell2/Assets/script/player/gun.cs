@@ -15,7 +15,7 @@ public class gun : MonoBehaviour
 
     public AudioSource sound;
     float timebtwshot;
-    Vector2 mousepos2;
+    public Vector2 mousepos;
 
     void Start()
     {
@@ -25,10 +25,10 @@ public class gun : MonoBehaviour
     void Update()
     {
         
-        Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         Vector3 dif = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float z = Mathf.Atan2(dif.y, dif.x) * Mathf.Rad2Deg;
-
+        transform.rotation = Quaternion.Euler(-180, 0, -z + offset);
         if (mousepos.x < 0)
         {
             transform.rotation = Quaternion.Euler(-180, 0, -z + offset);
