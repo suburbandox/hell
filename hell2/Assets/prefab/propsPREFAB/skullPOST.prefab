@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5302865225327172278}
   - component: {fileID: 5511294941125488078}
-  m_Layer: 0
+  - component: {fileID: 1321007905171579070}
+  m_Layer: 10
   m_Name: skullPOST
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 6156460909405453390, guid: 31dafb8f59fee2e45a286ad14964f8d8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -82,3 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1321007905171579070
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3872197207982641767}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.055856574, y: 1.2958208}
+  m_Size: {x: 1.0572846, y: 3.3309681}
+  m_Direction: 0
