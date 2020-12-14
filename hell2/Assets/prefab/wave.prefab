@@ -356,12 +356,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - enemies:
-    - {fileID: 0}
+    - {fileID: 1980577860946999744, guid: 2c708c3af7298e24babecba7100bb3ee, type: 3}
+    - {fileID: -6969838068790779960, guid: 5ecfac1939679b3459fbf01fdaac00ee, type: 3}
+    - {fileID: 1753220572219329013, guid: c5c5136a6a99c7f40aa8566c104108ee, type: 3}
+    - {fileID: 1980577860946999744, guid: 2c708c3af7298e24babecba7100bb3ee, type: 3}
     count: 2
     timebtwspawn: 1
   - enemies:
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: -6969838068790779960, guid: 5ecfac1939679b3459fbf01fdaac00ee, type: 3}
+    - {fileID: 1753220572219329013, guid: c5c5136a6a99c7f40aa8566c104108ee, type: 3}
+    - {fileID: 1753220572219329013, guid: c5c5136a6a99c7f40aa8566c104108ee, type: 3}
+    - {fileID: 7419595139683851844, guid: e4cee6bb4847fb04b8a6264cde6a1e41, type: 3}
     count: 2
     timebtwspawn: 3
   spawnpoints:

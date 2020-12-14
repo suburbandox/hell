@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: {fileID: 5307892221508531568, guid: 7ac46fae7d566334daf687b42932536e, type: 3}
-  maxhealth: 100
+  maxhealth: 30
   cry: {fileID: 0}
   d: {fileID: 0}
   n: crab

@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2dc2ce9d900a5746af512f2444ad738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sp: 10
+  sp: 20
   lifetime: 1.5
   dedfx: {fileID: 6424961115734828511, guid: 29ae4661c23e8774b855ff88c7346495, type: 3}
   dis: 0.5
